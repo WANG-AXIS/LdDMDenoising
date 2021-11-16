@@ -2,7 +2,7 @@
 
 ======
 
-This repository contains the training and testing codes for the paper "[Impact of loss functions on the performance of a deep neural network designed to restore low-dose digital mammography]()". For simulating dose reduction on clinical images, we used the codes available [here](https://lucasbusp.wixsite.com/lucasborges/simulation-of-dose-reduction). Also, we used a model-based (MB) restoration as a benchmark, also available [here](https://lucasbusp.wixsite.com/lucasborges/image-restoration), which uses the commonly known [BM3D](https://webpages.tuni.fi/foi/GCF-BM3D/). 
+This repository contains the training and testing codes for the paper "[Impact of loss functions on the performance of a deep neural network designed to restore low-dose digital mammography](https://arxiv.org/abs/2111.06890)". For simulating dose reduction on clinical images, we used the codes available [here](https://lucasbusp.wixsite.com/lucasborges/simulation-of-dose-reduction). Also, we used a model-based (MB) restoration as a benchmark, also available [here](https://lucasbusp.wixsite.com/lucasborges/image-restoration), which uses the commonly known [BM3D](https://webpages.tuni.fi/foi/GCF-BM3D/). 
 
 ## Network architecture:
 
@@ -18,7 +18,7 @@ Restoration of images with a dose reduction factor of 50%:
 
 ## Reference:
 
-If you use the toolbox, we will be very grateful if you refer to this [paper]():
+If you use the toolbox, we will be very grateful if you refer to this [paper](https://arxiv.org/abs/2111.06890):
 
 
 ---
