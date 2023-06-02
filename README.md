@@ -2,25 +2,19 @@
 
 ======
 
-This repository contains the training and testing codes for the paper "[Impact of loss functions on the performance of a deep neural network designed to restore low-dose digital mammography](https://arxiv.org/abs/2111.06890)". For simulating dose reduction on clinical images, we used the codes available [here](https://lucasbusp.wixsite.com/lucasborges/simulation-of-dose-reduction). Also, we used a model-based (MB) restoration as a benchmark, also available [here](https://lucasbusp.wixsite.com/lucasborges/image-restoration), which uses the commonly known [BM3D](https://webpages.tuni.fi/foi/GCF-BM3D/). 
-
-## Network architecture:
-
-![](imgs/breast_dm_network.png)
-
-## Some results:
-
-Restoration of images with a dose reduction factor of 75%:
-![](imgs/75.png)
-
-Restoration of images with a dose reduction factor of 50%:
-![](imgs/50.png)
+This repository contains the training and testing codes for the paper "[Impact of loss functions on the performance of a deep neural network designed to restore low-dose digital mammography](https://doi.org/10.1016/j.artmed.2023.102555)". For simulating dose reduction on clinical images, we used the codes available [here](https://lucasbusp.wixsite.com/lucasborges/simulation-of-dose-reduction). Also, we used a model-based (MB) restoration as a benchmark, also available [here](https://lucasbusp.wixsite.com/lucasborges/image-restoration), which uses the commonly known [BM3D](https://webpages.tuni.fi/foi/GCF-BM3D/). 
 
 ## Reference:
 
-If you use the toolbox, we will be very grateful if you refer to this [paper](https://arxiv.org/abs/2111.06890):
-
-
+    @article{shan2023impact,
+      title={Impact of loss functions on the performance of a deep neural network designed to restore low-dose digital mammography},
+      author={Shan, Hongming and Vimieiro, Rodrigo B and Borges, Lucas R and Vieira, Marcelo AC and Wang, Ge},
+      journal={Artificial Intelligence in Medicine},
+      volume={142},
+      pages={102555},
+      year={2023},
+      publisher={Elsevier}
+    }
 ---
 AI-based X-ray Imaging System ([AXIS](https://wang-axis.github.io))  
 Department of Biomedical Engineering  
